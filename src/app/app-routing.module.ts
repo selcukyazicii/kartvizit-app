@@ -17,6 +17,7 @@ component:HomeComponent
   path:'header',
   component:HeaderComponent
 },
+{ path: 'cards', loadChildren: () => import('./cards/cards.module').then(m => m.CardsModule) },
 
 ];
 
