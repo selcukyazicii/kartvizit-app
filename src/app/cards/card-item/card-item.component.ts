@@ -6,7 +6,7 @@ import { Card } from 'src/app/models/card';
   templateUrl: './card-item.component.html',
   styleUrls: ['./card-item.component.scss']
 })
-export class CardItemComponent  implements OnInit{
+export class CardItemComponent implements OnInit{
   @Input() cardItem!:Card
   constructor(){}
   ngOnInit():void{
